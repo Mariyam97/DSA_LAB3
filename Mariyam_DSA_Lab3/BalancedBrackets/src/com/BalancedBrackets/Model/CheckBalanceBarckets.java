@@ -27,10 +27,10 @@ public class CheckBalanceBarckets {
 		else if(s=='}' && !stack.isEmpty() && stack.peek() =='{'){
 			stack.pop();
 		}
-        else {
+                else {
 			return false;
 		}
-	}
+	    }
 		return stack.isEmpty();
 	}
 
